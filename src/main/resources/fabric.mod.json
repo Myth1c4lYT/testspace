@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "testspace",
+  "version": "${version}",
+
+  "name": "Mythicals Test Space",
+  "description": "Just A Shitty Test Space",
+  "authors": [
+    "Mythical"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "MIT",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.mythical.testspace.TestSpaceMod"
+    ]
+  },
+  "mixins": [
+    "testspace.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.18.1",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
