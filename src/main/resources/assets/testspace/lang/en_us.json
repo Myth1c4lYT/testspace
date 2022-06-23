@@ -1,4 +1,6 @@
 {
   "item.testspace.mythite_ingot": "Mythite Ingot",
-  "item.testspace.mythite_nugget": "Mythite Nugget"
+  "item.testspace.mythite_nugget": "Mythite Nugget",
+  "block.testspace.mythite_block": "Mythite Block",
+  "block.testspace.mythite_ore": "Mythite Ore"
 }
