@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "testspace:mythite_ore"
+  },
+  "result": "testspace:raw_mythite",
+  "experience": 0.7,
+  "cookingtime": 100
+  }

@@ -11,16 +11,20 @@ import net.minecraft.item.PickaxeItem;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.mythical.testspace.TestSpaceMod;
+import net.mythical.testspace.block.custom.SpeedyBlock;
+import net.mythical.testspace.item.ModItemGroups;
 
 
 public class ModBlocks {
 
     public static final Block MYTHITE_BLOCK = registerBlock("mythite_block",
-            new Block(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool()), ItemGroup.BUILDING_BLOCKS);
+            new Block(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool()), ModItemGroups.MYTHICALS_TEST_SPACE);
 
     public static final Block MYTHITE_ORE = registerBlock("mythite_ore",
-            new Block(FabricBlockSettings.of(Material.STONE).strength(4.5f).requiresTool()), ItemGroup.BUILDING_BLOCKS);
+            new Block(FabricBlockSettings.of(Material.STONE).strength(4.5f).requiresTool()), ModItemGroups.MYTHICALS_TEST_SPACE);
 
+    public static final Block SPEEDY_BLOCK = registerBlock("speedy_block",
+            new SpeedyBlock(FabricBlockSettings.of(Material.STONE).strength(4.0f).requiresTool()), ModItemGroups.MYTHICALS_TEST_SPACE);
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);

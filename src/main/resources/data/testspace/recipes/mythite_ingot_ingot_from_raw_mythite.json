@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "testspace:raw_mythite"
+  },
+  "result": "testspace:mythite_ingot",
+  "experience": 0.7,
+  "cookingtime": 200
+  }

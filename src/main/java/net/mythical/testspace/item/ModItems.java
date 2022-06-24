@@ -6,15 +6,22 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.mythical.testspace.TestSpaceMod;
+import net.mythical.testspace.item.custom.DowsingRodItem;
 
 
 public class ModItems {
 
     public static final Item MYTHITE_INGOT = registerItem("mythite_ingot",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+            new Item(new FabricItemSettings().group(ModItemGroups.MYTHICALS_TEST_SPACE)));
 
     public static final Item MYTHITE_NUGGET = registerItem("mythite_nugget",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+            new Item(new FabricItemSettings().group(ModItemGroups.MYTHICALS_TEST_SPACE)));
+
+    public static final Item RAW_MYTHITE = registerItem("raw_mythite",
+            new Item(new FabricItemSettings().group(ModItemGroups.MYTHICALS_TEST_SPACE)));
+
+    public static final Item DOWSING_ROD = registerItem("dowsing_rod",
+            new DowsingRodItem(new FabricItemSettings().group(ModItemGroups.MYTHICALS_TEST_SPACE).maxDamage(32)));
 
 
     private static Item registerItem(String name, Item item) {

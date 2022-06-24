@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "testspace:mythite_ingot"
+    }
+  ],
+    "result": {
+      "item": "testspace:mythite_nugget",
+      "count": 9
+    }
+  }

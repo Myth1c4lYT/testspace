@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "testspace:mythite_ingot"
+    }
+    },
+    "result": {
+      "item": "testspace:mythite_block"
+    }
+}
