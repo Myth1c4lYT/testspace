@@ -4,10 +4,14 @@
   "item.testspace.raw_mythite": "Raw Mythite",
   "item.testspace.dowsing_rod": "Dowsing Rod",
   "item.testspace.turnip": "Turnip",
+  "item.testspace.coal_sliver": "Coal Sliver",
   "block.testspace.mythite_block": "Mythite Block",
   "block.testspace.mythite_ore": "Mythite Ore",
   "block.testspace.speedy_block": "Speedy Block",
 
   "itemGroup.testspace.mythical_test_space": "Mythicals Test Space",
-  "item.testspace.dowsing_rod.no_valuables": "No Valuables Found."
+  "item.testspace.dowsing_rod.no_valuables": "No Valuables Found.",
+
+  "item.mccourse.dowsing_rod.tooltip.shift": "Right Click to find valuables",
+  "item.mccourse.dowsing_rod.tooltip": "Press §eSHIFT§r for more Information"
 }

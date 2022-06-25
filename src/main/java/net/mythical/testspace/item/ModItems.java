@@ -24,7 +24,10 @@ public class ModItems {
             new DowsingRodItem(new FabricItemSettings().group(ModItemGroups.MYTHICALS_TEST_SPACE).maxDamage(32)));
 
     public static final Item TURNIP = registerItem("turnip",
-            new Item(new FabricItemSettings().group(ModItemGroups.MYTHICALS_TEST_SPACE).food(ModFoodComponents.TURNIP)));
+            new Item(new FabricItemSettings().group(ModItemGroups.MYTHICALS_TEST_SPACE).group(ItemGroup.FOOD).food(ModFoodComponents.TURNIP)));
+
+    public static final Item COAL_SLIVER = registerItem("coal_sliver",
+            new Item(new FabricItemSettings().group(ModItemGroups.MYTHICALS_TEST_SPACE)));
 
 
     private static Item registerItem(String name, Item item) {
