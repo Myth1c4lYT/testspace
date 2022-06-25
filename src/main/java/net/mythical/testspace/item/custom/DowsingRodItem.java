@@ -14,6 +14,7 @@ import net.minecraft.text.TranslatableText;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
+import net.mythical.testspace.util.ModTags;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
@@ -55,9 +56,9 @@ public class DowsingRodItem extends Item {
     @Override
     public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
         if(Screen.hasShiftDown()) {
-            tooltip.add(new TranslatableText("item.mccourse.dowsing_rod.tooltip.shift"));
+            tooltip.add(new TranslatableText("item.testspace.dowsing_rod.tooltip.shift"));
         } else {
-            tooltip.add(new TranslatableText("item.mccourse.dowsing_rod.tooltip"));
+            tooltip.add(new TranslatableText("item.testspace.dowsing_rod.tooltip"));
         }
 
 
@@ -69,7 +70,7 @@ public class DowsingRodItem extends Item {
     }
 
     private  boolean isValuable(Block block) {
-        return block == Blocks.COAL_ORE || block == Blocks.IRON_ORE || block == Blocks.COPPER_ORE || block == Blocks.LAPIS_ORE || block == Blocks.DIAMOND_ORE || block == Blocks.ANCIENT_DEBRIS;
+        return ModTags.Blocks.DOWSING_ROD_DETECTABLE_BLOCKS.contains(block);
     }
 
 

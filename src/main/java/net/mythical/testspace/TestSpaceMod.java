@@ -18,6 +18,7 @@ public class TestSpaceMod implements ModInitializer {
 	public void onInitialize() {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+
 		ModRegistries.registerModStuffs();
 	}
 }

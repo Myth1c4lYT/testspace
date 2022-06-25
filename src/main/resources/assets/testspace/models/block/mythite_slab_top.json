@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "testspace:block/mythite_block",
+    "top": "testspace:block/mythite_block",
+    "side": "testspace:block/mythite_block"
+  }
+}

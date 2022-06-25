@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "testspace:block/mythite_slab"
+    },
+    "type=double": {
+      "model": "testspace:block/mythite_block"
+    },
+    "type=top": {
+      "model": "testspace:block/mythite_slab_top"
+    }
+  }
+}
