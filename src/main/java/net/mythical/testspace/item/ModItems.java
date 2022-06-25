@@ -23,6 +23,9 @@ public class ModItems {
     public static final Item DOWSING_ROD = registerItem("dowsing_rod",
             new DowsingRodItem(new FabricItemSettings().group(ModItemGroups.MYTHICALS_TEST_SPACE).maxDamage(32)));
 
+    public static final Item TURNIP = registerItem("turnip",
+            new Item(new FabricItemSettings().group(ModItemGroups.MYTHICALS_TEST_SPACE).food(ModFoodComponents.TURNIP)));
+
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(TestSpaceMod.MOD_ID, name), item);
