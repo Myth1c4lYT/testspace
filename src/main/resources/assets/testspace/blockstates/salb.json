@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "testspace:block/salb"
+    },
+    "type=double": {
+      "model": "testspace:block/blok"
+    },
+    "type=top": {
+      "model": "testspace:block/salb_top"
+    }
+  }
+}

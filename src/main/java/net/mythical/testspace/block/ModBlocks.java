@@ -35,6 +35,12 @@ public class ModBlocks {
     public static final Block MYTHITE_SLAB = registerBlock("mythite_slab",
             new SlabBlock(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool()), ModItemGroups.MYTHICALS_TEST_SPACE);
 
+    public static final Block SALB = registerBlock("salb",
+            new SlabBlock(FabricBlockSettings.of(Material.STONE).strength(9999).requiresTool()), ModItemGroups.MYTHICALS_TEST_SPACE);
+
+    public static final Block BLOK = registerBlock("blok",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(9999).requiresTool()), ModItemGroups.MYTHICALS_TEST_SPACE);
+
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);

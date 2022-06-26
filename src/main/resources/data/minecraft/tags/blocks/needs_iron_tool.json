@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     "testspace:mythite_ore",
-    "testspace:mythite_block"
+    "testspace:mythite_block",
+    "testspace:salb"
   ]
 }
